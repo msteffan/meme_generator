@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("http://wallpapercolor.net/wallpapers/black-glitter-wallpaper-12952.jpg");
+}
+.contentHolder {
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: RGBA(255, 239, 213, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+/*.background {
+
+    z-index: 0;
+
+    width: 50vw;
+    height: 400px;
+    position: fixed;*/
+
+/*}*/
+input[type="text"], select {
+    z-index: 1;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    line-height: 2;
+    height: 30px;
+
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+}

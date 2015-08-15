@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="contentHolder">
+        <div class="background"></div>
+        <h1>WDI6 Meme Generator</h1>
+        <div class="memeInput">
+            <label for="meme">Meme:</label>
+            <select id="meme">
+                <option value="random">Select a meme from the list...</option>
+                <option value="Condescending Wonka">Condescending Wonka</option>
+                <option value="Confession Bear">Confession Bear</option>
+                <option value="Y U No">Y U No</option>
+                <option value="Well That Escalated Quickly">Well That Escalated Quickly</option>
+                <option value="The Most Interesting Man In The World">The Most Interesting Man In The World</option>
+                <option value="Success Kid Original">Success Kid</option>
+                <option value="Socially Awkward Penguin">Confession Bear</option>
+                <option value="No I Cant Obama">No I Cant Obama</option>
+            </select>
+            <label for="top-text">Top Text:</label>
+            <input name="top-text" type="text" id="top-text" value=""></input>
+            <label for="bottom-text">Bottom Text:</label>
+            <input name="bottom-text" type="text" id="bottom-text" value=""></input>
+            <input id="makeMeme" type="submit" value="Generate"></input>
+        </div>
+    </div>
+    <img id="meme-image" />
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>
